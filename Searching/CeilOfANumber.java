@@ -28,5 +28,7 @@ public class CeilOfANumber {
             return -1; // no ceil exists
         }
         return arr[start];
+        //After binary search terminates, start points to the smallest element greater than or equal to the target, 
+        //which by definition is the ceil.
     }
 }
