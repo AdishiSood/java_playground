@@ -26,6 +26,8 @@ public class FloorOfANumber {
         if (end < 0) {
             return -1; // no floor exists
         }
-        return arr[end];
+        return arr[end]; 
+        // When the loop terminates, start becomes greater than end. At this point, 
+        //end points to the greatest element less than or equal to the target, which is why we return arr[end] as the floor.
     }
 }
